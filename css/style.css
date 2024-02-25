@@ -1,0 +1,107 @@
+.apple{
+    border: 1px thin;
+    width: 300px;
+    height: 330px;
+    background-color: #ededed;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.alma{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px thin;
+    background-color: grey;
+    height: 190px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.pear{
+    border: 1px thin;
+    width: 300px;
+    height: 330px;
+    background-color: #ededed;
+    padding: 20px;
+    text-align: center; 
+}
+
+.armud{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px thin;
+    background-color: grey;
+    height: 190px;
+    margin-left: 15px;
+    margin-right: 15px; 
+}
+
+.orange{
+    border: 1px thin;
+    width: 300px;
+    height: 330px;
+    background-color: #ededed;
+    padding: 20px;
+    text-align: center; 
+}
+
+.portagal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px thin;
+    background-color: grey;
+    height: 190px;
+    margin-left: 15px;
+    margin-right: 15px; 
+}
+
+.tomato{
+    border: 1px thin;
+    width: 300px;
+    height: 330px;
+    background-color: #ededed;
+    padding: 20px;
+    text-align: center; 
+}
+
+.pomidor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px thin;
+    background-color: grey;
+    height: 190px;
+    margin-left: 18px;
+    margin-right: 18px; 
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    
+}
+
+@media only screen and (max-width: 1024px) {
+    
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    
+}
+}
+
+    
+    
+
+
+
+    
+
+
